@@ -1,3 +1,8 @@
+# ignore large files
+config.py
+ratings.csv
+movies_metadata.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
