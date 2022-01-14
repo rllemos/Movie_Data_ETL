@@ -29,11 +29,11 @@ Load - Write the data into a datbase for storage
 8. set the DataFrames from the return statement equal to the file names in Step 6. In this step, you are reassigning the variables created in Step 6 to the variables in the return statement.
 9. In Steps 9-11, check that all three files are converted to a DataFrame. See the images below for confirmation:
 10. The wiki_movies_df DataFrame:
-![](Images/wiki_movies_df_deliverable_1.head().png)
+![](Resources/wiki_movies_df_deliverable_1.head().png)
 11. The kaggle_metadata DataFrame
-![](Images/kaggle_metadata.head.png)
+![](Resources/kaggle_metadata.head.png)
 12. The ratings DataFrame
-![](Images/ratings.head.png)
+![](Resources/ratings.head.png)
 ## Deliverable 2:
 1. In Step 1, add the code from this module for the clean movie function that takes in the argument "movie".
 2. In Step 2, add the function you created in Deliverable 1 that reads in the three data files.
@@ -55,9 +55,9 @@ Load - Write the data into a datbase for storage
 18. In Step 18, set the three variables in Step 17 equal to the function created in Deliverable 1.
 19. In Step 19, set the wiki_movies_df equal to the wiki_file variable.
 20. In Step 20, check that your wiki_movies_df DataFrame looks like this image:
-![](Images/wiki_movies_df_deliverable_2.head().png)
+![](Resources/wiki_movies_df_deliverable_2.head().png)
 21. In Step 21, add the columns from wiki_movies_df DataFrame to a list, and confirm that they are the same as this image:
-![](Images/wiki_movies_df.columns.to_list().png)
+![](Resources/wiki_movies_df.columns.to_list().png)
 ## Deliverable 3:
 1. In Step 1, add the function you created in Deliverable 1 that reads in the three data files and creates the kaggle_metadata and ratings DataFrames.
 2. Before Step 2, add all the code you wrote for Deliverable 2.
@@ -74,11 +74,11 @@ Load - Write the data into a datbase for storage
 13. In Step 12, set the DataFrames from the return statement after Step 9 equal to the file names in Step 11.
 14. In Step 13, check that your wiki_movies_df DataFrame is the same as in Deliverable 2.
 15. In Step 14, check that your movies_with_ratings_df DataFrame looks like this image:
-![](Images/movies_with_ratings_df.head().png)
+![](Resources/movies_with_ratings_df.head().png)
 
 
 16. In Step 15, check that your movies_df DataFrame looks like this image:
-![](Images/movies_df.head().png)
+![](Resources/movies_df.head().png)
 
 ## Deliverable 4:
 1. In the first cell, uncomment the # from config import db_password so this code is working.
@@ -94,11 +94,11 @@ Hint: Use 'replace' for the if_exists parameter so that the movies_df DataFrame 
 9. After you confirm that the movies table has 6,052 rows and the ratings table has 26,024,289 rows, take a screenshot of each query and the output, then save them as movies_query.png and ratings_query.png, respectively.
 
 Movie query and output:
-![](Images/movies_query.png)
-![](Images/movie_query_output.png)
+![](Resources/movies_query.png)
+![](Resources/movie_query_output.png)
 
 Ratings query and output:
-![](Images/ratings_query.png)
+![](Resources/ratings_query.png)
 
 ## Summary
 The Extract, transform and load function created collects and cleans movie data from different sources like: Wikipedia JSON ,Kaggle(movies_metadata.csv) and ratings csv files . It transforms and merges the data and loads it into two updatable PostgreSQL dataset tables ready to be used by the hackathon participants for their analysis.
