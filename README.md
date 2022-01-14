@@ -94,10 +94,11 @@ Hint: Use 'replace' for the if_exists parameter so that the movies_df DataFrame 
 9. After you confirm that the movies table has 6,052 rows and the ratings table has 26,024,289 rows, take a screenshot of each query and the output, then save them as movies_query.png and ratings_query.png, respectively.
 
 Movie query and output:
-![]()
+![](Images/movies_query.png)
+![](Images/movie_query_output.png)
 
 Ratings query and output:
-![]()
+![](Images/ratings_query.png)
 
 ## Summary
-The Extract, transform and load function created collects and cleans movie data from different sources (Wikipedia JSON ,Kaggle and ratings csv files). It transforms and merges the data and loads it into two updatable PostgreSQL dataset tables ready to be used by the hackathon participants for their analysis.
+The Extract, transform and load function created collects and cleans movie data from different sources like: Wikipedia JSON ,Kaggle(movies_metadata.csv) and ratings csv files . It transforms and merges the data and loads it into two updatable PostgreSQL dataset tables ready to be used by the hackathon participants for their analysis.
